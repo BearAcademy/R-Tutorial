@@ -5,7 +5,7 @@
 library(devtools)
 install_github("metacran/cranlogs")
 library(cranlogs)
-cran_top_downloads()
+cran_top_downloads(when = "last-week")
 
 cran_ggplot2 = cran_downloads(package = "ggplot2", from = "2012-10-01", to = "2016-05-31")
 head(cran_ggplot2)

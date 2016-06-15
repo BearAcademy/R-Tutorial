@@ -1,7 +1,6 @@
 library(showtext)
 library(ggplot2)
 
-setwd("F:/OneDrive/熊学院R课程/data/R语千寻/")
 
 ### read data
 yitian = readLines("倚天屠龙记.Txt")
